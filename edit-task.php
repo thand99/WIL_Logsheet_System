@@ -49,7 +49,7 @@ $row = $info->fetch(PDO::FETCH_ASSOC);
                             <div class="form-group">
 			                    <label class="control-label col-sm-5">Task Title</label>
 			                    <div class="col-sm-7">
-			                      <input type="text" placeholder="Task Title" id="task_title" name="task_title" list="expense" class="form-control" value="<?php echo $row['t_title']; ?>" <?php if($user_role != 1){ ?> readonly <?php } ?> val required>
+			                      <input type="text" placeholder="Task Title" id="task_title" name="task_title" list="expense" class="form-control"></input>
 			                    </div>
 			                  </div>
 			                  <div class="form-group">
